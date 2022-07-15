@@ -26,7 +26,7 @@ function sumOfNumbers(arrayOfNumbers) {
 /**
  * Challenge - 2
  * 
- * Count all even numbers within an array of numbers.
+ * count all even numbers within an array of numbers.
  * If you did Challenge - 2, remove the comment in the line just after this function
  * 
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
@@ -34,8 +34,8 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   let count = 0;
-  for(let i = 0; i < arrayOfNumbers.length; i++){
-    if (arrayOfNumbers[i]%2 == 0){
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
+    if (arrayOfNumbers[i] % 2 == 0) {
       count++
     }
   }
